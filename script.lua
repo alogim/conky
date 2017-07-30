@@ -14,6 +14,7 @@ function conky_main()
   cr = cairo_create(cs)
   local updates=tonumber(conky_parse('${updates}'))
   
+  print("HI")
   if updates>0 then
     print ("hello world")
   end
